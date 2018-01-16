@@ -1,0 +1,32 @@
+.row .col-sm-4.teach_pic_archive {
+	float: left;
+}
+table	{
+	width: 100%;
+	margin-bottom: 30px;
+	float: left;
+}
+table td.title{
+	font-weight: bold;
+	font-size: large;
+}
+table th, section td	{ padding: 10px; border: 1px solid #ddd; background: #ffffff;}
+.date	{
+	background: #f7f6f2;
+}
+
+/*----------------------------------------------------
+	.demo01
+----------------------------------------------------*/
+table th	{ width: 20%; text-align: left; }
+
+@media only screen and (max-width:480px){
+    .demo01	{ margin: 0 -10px; }
+    .demo01 th,
+    .demo01 td{
+		width: 100%;
+		display: block;
+		border-top: none;
+    }
+	.demo01 tr:first-child th	{ border-top: 1px solid #ddd; }
+}
