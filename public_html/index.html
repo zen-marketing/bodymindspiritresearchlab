@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>BMS R Lab|身体と心と精神を学び健康へ。年間200講座開催</title>
@@ -43,8 +44,16 @@ $(function(){
     $(function(){
         $('#menu').slicknav();
     });
+
+	$(function(){
+    $(".spmenu_btn").on("click", function() {
+        $(this).next().slideToggle();
+        $(this).toggleClass("active");
+    });
+});
 </script>
 
+	
 </head>
 
 <body>
@@ -70,8 +79,8 @@ $(function(){
     <li><a href="access.html">アクセス</a></li>
     <li class="last"><a href="policy.html">キャンセルポリシー</a></li>
 </ul>
-</div>
 
+	</div>
 <!--<div style="margin-top: 20px"><a href="http://aiube.jp/"><img src="img/top_aiube.png" alt="あいうべ体操指導者資格コース" /></a></div>-->
 </div>
 </section>
@@ -80,13 +89,25 @@ $(function(){
 <div class="container info">
 	<div class="flt_l">
     <h2 class="t_title">お知らせ</h2>
-    	<dl><dd>2018.01.16</dd> <dt><a href="#watase">渡瀬ひとみ、トンプソン浩美、土屋江里子、エリザベス・パパ先生の講座</a>を追加いたしました。</dt></dl>
-		<dl><dd>2018.01.11</dd> <dt><a href="#rumiko">Rumiko先生の講座</a>を追加いたしました。</dt></dl>
-     <dl><dd>2018.01.09</dd> <dt><a href="#chad">Chad Hamrin先生の講座</a>を追加いたしました。</dt></dl>
-     <dl><dd>2017.12.22</dd> <dt><a href="#aramaki">荒牧美代子先生の講座</a>を追加いたしました。</dt></dl>
-    <dl><dd>2017.12.22</dd> <dt><a href="#ogino">萩野佳央理先生の講座</a>を追加いたしました。</dt></dl>
-    	<dl><dd>2017.12.22</dd> <dt><a href="#joy">Joy Puleo先生の講座</a>を追加いたしました。</dt></dl>
-	  <dl><dd>2017.12.12</dd> <dt><a href="#kelly">Kelly Milton先生の講座</a>を追加いたしました。</dt></dl>
+		<dl><dd>2018.03.27</dd> <dt><a href="#trent">Trent McEntire 来日決定！</a>を追加いたしました。</dt></dl>
+		<dl><dd>2018.03.23</dd> <dt><a href="#niimi">新見到先生の講座</a>を追加いたしました。</dt></dl>
+	<dl><dd>2018.03.23</dd> <dt><a href="#suga">須賀英道先生の講座</a>を追加いたしました。</dt></dl>
+	<dl><dd>2018.03.22</dd> <dt><a href="#Jeanne">Jeanne Heileman先生の講座</a>を追加いたしました。</dt></dl>
+	<dl><dd>2018.03.20</dd> <dt><a href="#friday">FRIDAY NIGHT YOGA Party!</a>を追加いたしました。</dt></dl>
+    <dl><dd>2018.03.19</dd> <dt><a href="#ogino">萩野KAORI先生の講座</a>を追加いたしました。</dt></dl>
+	<dl><dd>2018.03.12</dd> <dt><a href="#y4c">Y4C（ヨガフォーキャンサー）～がんサバイバーのためのヨガ～の講座</a>を追加いたしました。</dt></dl>
+	<!--dl><dd>2018.03.07</dd> <dt><a href="#vivi">創設者ギリシャから来日する　Vivi Lestou先生の講座</a>を追加いたしました。</dt></dl-->
+	<dl><dd>2018.02.27</dd> <dt><a href="#hamaguchi">濱口由美子先生の講座</a>を追加いたしました。</dt></dl>
+    <dl><dd>2018.02.21</dd> <dt><a href="#y4c">Y4C（ヨガフォーキャンサー）～がんサバイバーのためのヨガ～の講座</a>を追加いたしました。</dt></dl>
+    <dl><dd>2018.02.15</dd> <dt><a href="#okamoto">岡本るみ子先生の講座</a>を追加いたしました。</dt></dl>
+	<dl><dd>2018.02.13</dd> <dt><a href="#rumiko">basiピラティスインストラクターRumikoの講座</a>を追加いたしました。</dt></dl>
+    <dl><dd>2018.02.09</dd> <dt><a href="#nagaki">永木和載先生の講座</a>を追加いたしました。</dt></dl>
+    <dl><dd>2018.02.08</dd> <dt><a href="#ogino">萩野KAORI先生の講座</a>を追加いたしました。</dt></dl>
+    <dl><dd>2018.01.30</dd> <dt><a href="#imaoka">今岡美雪先生の講座</a>を追加いたしました。</dt></dl>
+    <dl><dd>2018.01.29</dd> <dt><a href="#y4c">Y4C（ヨガフォーキャンサー）がんサバイバー</a>を追加いたしました。</dt></dl>
+    <dl><dd>2018.01.25</dd> <dt><a href="#yogaworks">加藤紅彩（Kosai）先生の講座</a>を追加いたしました。</dt></dl>
+    <!--dl><dd>2018.01.25</dd> <dt><a href="#y4c">Y4C（ヨガフォーキャンサー）がんサバイバー</a>を追加いたしました。</dt></dl>
+    <dl><dd>2018.01.25</dd> <dt><a href="#hatano">波田野征美先生の講座</a>を追加いたしました。</dt></dl-->
 </div>
 
 <div class="flt_r"><!--<a href="senior.html"><img src="img/bnr_senior.jpg" alt="高齢者指導のためのスキルアップ講座3days" /></a><br><br>--><iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FBMSRLab%2F&tabs=timeline&width=300&height=300&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId=120951898458623" width="300" height="300" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe></div>
@@ -96,14 +117,402 @@ $(function(){
 
 <section class="" id="kaisai">
 <div class="container">
-    <h2 class="t_title">開催予定講座一覧 <span>2018年1月〜2018年5月</span></h2>
+    <h2 class="t_title">開催予定講座一覧 <span>2018年2月〜2018年7月</span></h2>
 </div>
 </section>
 
 <div class="container ws_list">
-<section id="label"><ul><li><a href="#aramaki">》荒牧美代子</a></li><!--<li><a href="#arisa">》Arisa</a></li>--><!--<li><a href="#imaoka">》今岡美雪</a></li>-><!--<li><a href="#iwasaki">》岩崎由純</a></li>--><li><a href="#onuki">》大貫 崇</a></li><li><a href="#okazaki">》岡崎マキ</a></li><!--<li><a href="#ougiya">》扇谷孝太郎</a></li>--><!--<li><a href="#otsuka">》大塚ひとみ</a></li>--><!--<li><a href="#okamoto">》岡本るみ子</a></li>--><li><a href="#okazaki_tomomi">》岡崎ともみ</a></li><li><a href="#ogini">》萩野佳央理</a></li><!--<li><a href="#kristen">》Kristen Engles</a></li>-->
-	<!--<li><a href="#yogaworks">》加藤紅彩（Kosai）</a></li>--><!--<li><a href="#kameda">》亀田圭一</a></li>--><li><a href="#kelly">》Kelly Milton</a></li><li><a href="#kiyonaga">》清永将司</a></li><!--<li><a href="#gondo">》権藤まどか</a></li>--><!--<li><a href="#sakurai">》櫻井淳子</a></li>--><!--<li><a href="#satoko">》Satoko</a></li>--><li><a href="#jennie">》Jonnie Cohen</a></li><!--<li><a href="#john">》John Gaydos</a></li>--><!--<li><a href="#shimizu">》清水八恵</a></li>--><!--<li><a href="#sheri">》Sheri Long</a></li>--><li><a href="#joy">》Joy Puleo</a></li><!--<li><a href="#shigematsu">》スティーブン・マーフィー・重松</a></li>--><!--<li><a href="#sonobe">》園部俊晴</a></li>--><li><a href="#takamura">》高村マサ</a></li><li><a href="#takano">》高野真利</a></li><li><a href="#takeda">》武田淳也</a><!--<li><a href="#tsuchiya_hiromi">》土屋江里子</a>--></li><li><a href="#chad">》Chad Hamrin</a></li><!--<li><a href="#chuck">》Chuck Miller</a></li>--><!--<li><a href="#tsujikawa">》辻川容子</a></li>-><li><a href="#tsuchiya_hiromi">》トンプソン浩美</a></li><!--<li><a href="#tuchiya">》土屋潤二</a></li>--><li><a href="#nagaki">》永木和載</a></li><!--<li><a href="#nomizo">》野溝明子</a></li>--><li><a href="#hatano">》波田野征美</a></li><!--<li><a href="#hanaoka">》花岡正敬</a></li>--><!--<li><a href="#hiramoto">》平本あきお</a></li>--><!--<li><a href="#portia">》Portia Page</a></li>--><!--<li><a href="#aoki">》ポール青木</a></li>--><!--<li><a href="#motohashi">》本橋恵美</a></li>--><!--<li><a href="#miyahara">》宮原暁子</a></li>--><li><a href="#yuki">》Yuki</a></li><!--<li><a href="#yamada">》山田いずみ</a></li>--><!--<li><a href="#yamamoto">》山本奈津子</a></li>--><!--<li><a href="#yamuna">》Yamuna Zake</a></li>--><!--<li><a href="#yoshinaga">》吉永健太郎</a></li>--><li><a href="#rumiko">》Rumiko</a></li><li><a href="#watase">》渡瀬ひとみ</a></li></ul></section>
+<section id="label"><ul><li><a href="#trent">》Trent McEntire</a></li><li><a href="#aramaki">》荒牧美代子</a></li><!--<li><a href="#arisa">》Arisa</a></li>--><li><a href="#ishikawa">》石川沙樹</a></li><li><a href="#imaoka">》今岡美雪</a></li><!--<li><a href="#iwasaki">》岩崎由純</a></li>--><li><a href="#onuki">》大貫 崇</a></li><li><a href="#okazaki">》岡崎マキ</a></li><!--<li><a href="#ougiya">》扇谷孝太郎</a></li>--><!--<li><a href="#otsuka">》大塚ひとみ</a></li>--><li><a href="#okamoto">》岡本るみ子</a></li><li><a href="#okazaki_tomomi">》岡崎ともみ</a></li><li><a href="#suga">》須賀英道</a></li><li><a href="#niimi">》新見到</a></li><li><a href="#ogino">》萩野KAORI</a></li><!--<li><a href="#kristen">》Kristen Engles</a></li>-->
+	<li><a href="#yogaworks">》加藤紅彩（Kosai）</a></li><!--<li><a href="#kameda">》亀田圭一</a></li>--><!--<li><a href="#kelly">》Kelly Milton</a></li>--><li><a href="#kiyonaga">》清永将司</a></li><!--<li><a href="#gondo">》権藤まどか</a></li>--><!--<li><a href="#sakurai">》櫻井淳子</a></li>--><!--<li><a href="#satoko">》Satoko</a></li>--><li><a href="#Jeanne">》Jeanne Heileman</a></li><li><a href="#jennie">》Jonnie Cohen</a></li><!--<li><a href="#john">》John Gaydos</a></li>--><!--<li><a href="#shimizu">》清水八恵</a></li>--><!--<li><a href="#sheri">》Sheri Long</a></li>--><li><a href="#joy">》Joy Puleo</a></li><!--<li><a href="#shigematsu">》スティーブン・マーフィー・重松</a></li>--><!--<li><a href="#sonobe">》園部俊晴</a></li>--><li><a href="#takamura">》高村マサ</a></li><li><a href="#takano">》高野真利</a></li><li><a href="#takeda">》武田淳也</a><!--<li><a href="#tsuchiya_hiromi">》土屋江里子</a>--></li><!--li><a href="#vivi">》Vivi Lestou</a></li--><li><a href="#chad">》Chad Hamrin</a></li><!--<li><a href="#chuck">》Chuck Miller</a></li>--><!--<li><a href="#tsujikawa">》辻川容子</a></li>-><li><a href="#tsuchiya_hiromi">》トンプソン浩美</a></li><!--<li><a href="#tuchiya">》土屋潤二</a></li>--><li><a href="#nagaki">》永木和載</a></li><!--<li><a href="#nomizo">》野溝明子</a></li>--><li><a href="#hatano">》波田野征美</a></li><!--<li><a href="#hanaoka">》花岡正敬</a></li>--><li><a href="#hamaguchi">》濱口由美子</a></li><!--<li><a href="#hiramoto">》平本あきお</a></li>--><!--<li><a href="#portia">》Portia Page</a></li>--><!--<li><a href="#aoki">》ポール青木</a></li>--><!--<li><a href="#motohashi">》本橋恵美</a></li>--><!--<li><a href="#miyahara">》宮原暁子</a></li>--><li><a href="#yuki">》Yuki</a></li><!--<li><a href="#yamada">》山田いずみ</a></li>--><!--<li><a href="#yamamoto">》山本奈津子</a></li>--><!--<li><a href="#yamuna">》Yamuna Zake</a></li>--><!--<li><a href="#yoshinaga">》吉永健太郎</a></li>--><li><a href="#rumiko">》Rumiko</a></li><li><a href="#friday">》FRIDAY NIGHT YOGA Party!</a></li><li><a href="#y4c">》Y4C（ヨガフォーキャンサー）がんサバイバー</a></li><li><a href="#watase">》渡瀬ひとみ</a></li></ul></section>
 </div>
+
+<div class="container ws_list">
+    <section class="row">
+        <h3 id="trent">Trent McEntire</h3>
+        <div class="col-sm-4 teach_pic">
+        <img src="img/img_trent.jpg" alt="Trent McEntire" />
+        </div>
+        <div class="col-sm-8">
+        <p class="disc">4月23日～26日 ピラティスを神経レベルで学ぼう</p>
+        <h4>「ニューロムーブメントコース（1/2）」<br>4月23日（月）9：00～16：30（休憩12：30-14：00）</h4>
+        <p class="price"><dl><dd>料金</dd><dt>
+            89,000円
+        </dt></dl></p>
+        <p class="price"><dl><dd>場所</dd><dt>
+                BASI中目黒スタジオ
+            </dt></dl></p>
+			<h4>「Arcus試乗会」<br>4月23日（月）16：30～18：00</h4>
+        <p class="price"><dl><dd>料金</dd><dt>無料
+        </dt></dl></p>
+        <p class="price"><dl><dd>場所</dd><dt>
+                BASI中目黒スタジオ
+            </dt></dl></p>
+	        <h4>「Reformer Group」<br>4月23日（月）18：00～19：00</h4>
+        <p class="price"><dl><dd>料金</dd><dt>
+            6,000円（オブザベーション3,000円）
+        </dt></dl></p>
+        <p class="price"><dl><dd>場所</dd><dt>
+                BASI中目黒スタジオ
+            </dt></dl></p>
+
+	        <h4>「ニューロムーブメントコース（2/2）」<br>4月24日（火）9：00～16：30（休憩12：30-14：00）</h4>
+        <p class="price"><dl><dd>料金</dd><dt>
+        89,000円
+        </dt></dl></p>
+        <p class="price"><dl><dd>場所</dd><dt>
+                BASI中目黒スタジオ
+            </dt></dl></p>
+
+	        <h4>「Mat Class」<br>4月24日（火）17：15～18：15</h4>
+        <p class="price"><dl><dd>料金</dd><dt>3,000円
+        </dt></dl></p>
+        <p class="price"><dl><dd>場所</dd><dt>
+                BASI中目黒スタジオ
+            </dt></dl></p>
+	        <h4>「Cadillac Group」<br>4月24日（火）18:45～19：45</h4>
+        <p class="price"><dl><dd>料金</dd><dt>6,000円（オブザベーション3,000円）</dt></dl></p>
+        <p class="price"><dl><dd>場所</dd><dt>
+                BASI中目黒スタジオ
+            </dt></dl></p>
+
+<p class="teach_btn" style="padding-top:20px;"><a href="trent.html#01" class="btn btn-success">詳細はこちら</a></p>
+
+        <h4>「Mat Class」<br>4月25日（水）8：30～9：30</h4>
+        <p class="price"><dl><dd>料金</dd><dt>
+            3,000円
+        </dt></dl></p>
+        <p class="price"><dl><dd>場所</dd><dt>
+                BMS R Lab1
+            </dt></dl></p>
+			<h4>「フット・アクティベーション」<br>4月25日（水）10：00～17：00（途中休憩1時間）</h4>
+        <p class="price"><dl><dd>料金</dd><dt>30,000円　早期割引28,500円※4/6(金)まで</dt></dl></p>
+        <p class="price"><dl><dd>場所</dd><dt>
+                BMS R Lab1
+            </dt></dl></p>
+	        <h4>「プライベートレッスン」<br>4月25日（水）17：30～18：00</h4>
+        <p class="price"><dl><dd>料金</dd><dt>
+            14,000円（オブザベーション3,000円）
+        </dt></dl></p>
+        <p class="price"><dl><dd>場所</dd><dt>
+                BMS R Lab1
+            </dt></dl></p>
+<p class="teach_btn" style="padding-top:20px;"><a href="trent.html#02" class="btn btn-success">詳細はこちら</a></p>
+
+
+        <h4>「Mat ClassLong box」<br>4月26日（木）9：00～16：30（休憩12：00-13：30）</h4>
+        <p class="price"><dl><dd>料金</dd><dt>
+            料金30,000円　早期割引28,500円※4/6(金)まで
+        </dt></dl></p>
+        <p class="price"><dl><dd>場所</dd><dt>
+                BASI銀座スタジオ
+            </dt></dl></p>
+			<h4>「Reformer Group」<br>4月26日（木）18：00～19：00　</h4>
+        <p class="price"><dl><dd>料金</dd><dt>6,000円（オブザベーション3,000円）</dt></dl></p>
+        <p class="price"><dl><dd>場所</dd><dt>
+                BASI銀座スタジオ
+            </dt></dl></p>
+	        <h4>「Mat Class」<br>4月26日（木）19：30～20：30</h4>
+        <p class="price"><dl><dd>料金</dd><dt>3,000円
+        </dt></dl></p>
+        <p class="price"><dl><dd>場所</dd><dt>BASI銀座スタジオ
+            </dt></dl></p>
+<p class="teach_btn" style="padding-top:20px;"><a href="trent.html#03" class="btn btn-success">詳細はこちら</a></p>
+</div>
+</section>
+
+</div>
+
+
+	
+	
+<div class="container ws_list">
+    <section class="row">
+        <h3 id="hamaguchi">濱口由美子</h3>
+        <div class="col-sm-4 teach_pic">
+        <img src="img/img_hamaguchi.jpg" alt="濱口由美子" />
+        </div>
+        <div class="col-sm-8">
+        <p class="disc">50歳以上の女性の3分の1がかかっているといわれる骨粗鬆症に対して自信をもって対応するために</p>
+        <h4>「骨粗鬆症に対する安全で効果的なエクササイズプラン作成」<br>5月25日（金）13:00～18:00</h4>
+        <p class="price"><dl><dd>料金</dd><dt>
+            16000円
+        </dt></dl></p>
+        <p class="price"><dl><dd>場所</dd><dt>
+                BMS1
+            </dt></dl></p>
+        <p class="disc">
+            50歳以上の女性の3分の1がかかっているといわれる骨粗鬆症。この骨粗鬆症に対する理解を深
+            めることで、クライアント全体像をとらえ、安全で効果的なエクササイズプランの組み立てができるようになることを学びます。<br>
+            ピラティスのコンセプトを応用したエクササイズが中心ですが、すべての運動指導者に共有していただける内容です。<br>
+            ・骨粗鬆症のメカニズム<br> 
+            ・骨粗鬆症の臨床的背景<br>
+            ・簡易評価ツールの紹介<br>
+            ・初回インタビューでの情報の引き出し方<br>
+            ・転倒、椎体骨折などのリスクについて<br>
+            ・骨折の一次予防、二次予防のための運動指導に必要な要素は？<br> 
+            ・日常生活の動作分析とゴール設定<br> 
+            ・プライベートセッションのプラン作成<br>
+            ・グループセッションのプラン作成<br> 
+            ・マット、椅子、立位、プロップを利用したピラティスエクササイズのモディフィケーション<br>
+            ・バランストレーニング、歩行や階段昇降などへの応用</p>
+        <p class="teach_btn" style="padding-top:20px;"><a href="hamaguchi.html" class="btn btn-success">詳細はこちら</a></p>
+        </div>
+    </section>
+</div>
+
+
+<div class="container ws_list">
+    <section class="row">
+        <h3 id="Jeanne">Jeanne Heileman</h3>
+        <div class="col-sm-4 teach_pic">
+        <img src="img/img_Jeanne.jpg" alt="Jeanne Heileman" />
+        </div>
+        <div class="col-sm-8">
+        <p class="disc">TANTRA FLOW YOGA™ with Jeanne Heileman 関西初開催！</p>
+        <h4>5月18日（金） 、5月19日（土）、5月20日（日）、5月21日（月）13:00〜17:30</h4>
+        <p class="price"><dl><dd>料金</dd>
+          <dt>
+            5月18日（金）13:00-17:00　/早割4月末まで  ￥9,000<br>
+            5月19日（土）11:00-15:00　/早割4月末まで  ￥7,500<br>
+            5月20日（日）9:30-11:30 　/早割4月末まで  ￥6,000<br>
+            5月20日（日）13:00-17:00　/早割4月末まで  ￥7,500<br>
+            5月21日（月）13:00-17:00　/早割4月末まで  ￥4,500<br>
+            5月21日（月）13:00-17:00　/早割4月末まで  ￥6,000<br>
+            (早割終了後）
+            <br>
+            5月18日（金）13:00-17:00　￥10,000<br>
+            5月19日（土）11:00-15:00 　￥8,500<br>
+            5月20日（日） 9:30-11:30 　 ￥6,500<br>
+          5月20日（日）13:00-17:00 　￥8,500<br>
+          5月21日（月）10:00-11:30 　￥5,000 <br>
+            5月21日（月）13:30-17:30 　￥6,500 <br>
+          </dt>
+        </dl>
+        </p>
+        <p class="price"><dl><dd>場所</dd><dt>
+         ヨガプラス 梅田／江坂／心斎橋／千里中央
+            </dt></dl></p>
+        <p class="disc">ロサンジェルスのタントラ・フロー・ヨガ　ジーンハイルマン　初来日！<br>
+          <br>
+          ヨガワークスティーチャートレーニング300時間監修に携わったジーンは幅広くヨガ、哲学、瞑想を学び、彼女のスタイルのタントラ・フロー・ヨガを築き、長きに渡り 世界各地で指導をされています。<br>
+          <br>
+          念願のこの初来日では　東京と関西にて様々なワークショップとレッスンを開催します。</p>
+        <p class="teach_btn" style="padding-top:20px;"><a href="Jeanne.html" class="btn btn-success">詳細はこちら</a></p>
+        </div>
+    </section>
+</div>
+
+
+<div class="container ws_list">
+    <section class="row">
+        <h3 id="suga">須賀英道</h3>
+        <div class="col-sm-4 teach_pic">
+        <img src="img/img_suga.jpg" alt="須賀英道" />
+        </div>
+        <div class="col-sm-8">
+        <p class="disc">ウィルビーイング手法の実践体験講座</p>
+        <h4>2018年5月19日（土）13:00〜16:00</h4>
+        <p class="price"><dl><dd>料金</dd><dt>12,000円</dt></dl></p>
+        <p class="price"><dl><dd>場所</dd><dt>
+                BMS1
+            </dt></dl></p>
+        <p class="disc">
+最近、メンタルの不調を感じる人が増え、現代社会にストレス負荷が多いことが指摘されています。しかし、ここには自分の状況の受け止め方も関係しています。<br />
+			こうした状況の改善手法は、ウェルビーイング手法ともいい、健康増進に大きな効果があります。<br />
+			このセミナーでは、みなさまの日常生活の中で気軽に取り組める具体的な手法をご紹介し、実践しながら身につけて頂くセミナーです。<br />
+			みなさんの対人関係の向上や生き甲斐のある人生への方向付けにもきっと気づきます。是非、ご参加下さい。
+	</p>
+        <p class="teach_btn" style="padding-top:20px;"><a href="suga.html" class="btn btn-success">詳細はこちら</a></p>
+        </div>
+    </section>
+</div>
+
+<div class="container ws_list">
+    <section class="row">
+        <h3 id="niimi">新見到</h3>
+        <div class="col-sm-4 teach_pic">
+        <img src="img/img_niimi.jpg" alt="新見到" />
+        </div>
+        <div class="col-sm-8">
+        <p class="disc">可動域を改善する”関節調整メソッド”足部編</p>
+        <h4>2018年5月18日（金）14:00〜17:00</h4>
+        <p class="price"><dl><dd>料金</dd><dt>7,800円</dt></dl></p>
+        <p class="price"><dl><dd>場所</dd><dt>BMS1</dt></dl></p>
+        <p class="disc">
+講座概要：プライベートレッスンに、 関節の構造を一瞬で整える施術法【関節調整メソッド】を取り入れることで、<br />「今までで、足首が一番軽く動きます！」 「左右差が一瞬で整いました！」 と言われるぐらい、クライアントの身体の動きが劇的に変わります。	</p>
+        <p class="teach_btn" style="padding-top:20px;"><a href="niimi.html" class="btn btn-success">詳細はこちら</a></p>
+        </div>
+    </section>
+</div>
+
+
+
+<div class="container ws_list">
+    <section class="row">
+        <h3 id="ogino">萩野KAORI</h3>
+        <div class="col-sm-4 teach_pic">
+        <img src="img/img_ogino.jpg" alt="萩野KAORI" />
+        </div>
+        <div class="col-sm-8">
+        <p class="disc">英語基礎＆応用講座　～楽しく学ぶレッスン英語～</p>
+        <h4>5月16日（水） 基礎編　13:00〜14:30<br />
+応用編　15:00〜17:00</h4>
+        <p class="price"><dl><dd>料金</dd><dt>
+            英語基礎90分　5000円<br>
+            レッスン英語応用実践コース2時間　10000円
+        </dt></dl></p>
+        <p class="price"><dl><dd>場所</dd><dt>
+                BMS1
+            </dt></dl></p>
+        <p class="disc">
+            【基礎90分】<br>
+            この講座では、英語が苦手な方でも安心して受講していただけるよう、体に関する基礎英単語から一つ一つ丁寧に学習していきます。次に、英語でのレッスンを理解するのに必要となる、解剖学やフィットネス分野の専門用語や言い回しを動きながら楽しく学んでいきます。<br><br>
+            【応用実践コース】<br>
+            基礎講座で学んだレッスン用語を使っての応用編！実際に英語のレッスン動画を見たり、英語でのピラティスレッスンも体験して動きながらも学んでいただきます。</p>
+        <p class="teach_btn" style="padding-top:20px;"><a href="hagino.html" class="btn btn-success">詳細はこちら</a></p>
+        </div>
+    </section>
+</div>
+
+
+<div class="container ws_list">
+<section class="row">
+    <h3 id="imaoka">今岡美雪</h3>
+    <div class="col-sm-4 teach_pic">
+    <img src="img/img_imaoka03.jpg" alt="今岡美雪" />
+    </div>
+    <div class="col-sm-8">
+    <p class="disc">足が変われば身体が変わる！～身体の土台の足を目覚めさせ、正しい重心のかけ方を知ろう～</p>
+    <h4>3/19（月）13:30～15:30<br>「ヤムナフット ワークショップ」</h4>
+    <p class="price"><dl><dd>料金</dd><dt>￥7,000</dt></dl></p>
+    <p class="teach_btn"><a href="imaoka.html" class="btn btn-success">詳細はこちら</a></p>
+    </div>
+    </section>
+</div>
+
+<div class="container ws_list">
+    <section class="row">
+        <h3 id="y4c">Y4C（ヨガフォーキャンサー）～がんサバイバーのためのヨガ～</h3>
+        <div class="col-sm-4 teach_pic">
+            <img src="img/y4c.jpg" alt="Y4C（ヨガフォーキャンサー）がんサバイバー" />
+        </div>
+        <div class="col-sm-8">			
+            <p class="disc" style="font-weight:bold;">「がん経験者のためのヨガクラス」<br>
+                2018年2月からヨガプラスにて定期クラスを開催します。
+            </p>
+            <h4>3/16（金）、3/18（日）、3/20（火）、3/22（木）、3/24（土）、4/17（火）、4/19（木）、4/21（土）<br>～y4cクラス～がんサバイバーのためのヨガ～<br>
+              </h4>
+<p>3/16（金）ヨガプラス川越 <br>
+3/18（日）ヨガプラス五反田<br>
+3/20（火）ヨガプラス銀座 <br>
+3/22（木）ヨガプラス銀座<br>
+3/24（土）ヨガプラス五反田<br>
+4/17 (火) ヨガプラス銀座<br>
+4/19 (木) ヨガプラス銀座<br>
+4/21 (土) ヨガプラス五反田<br>
+
+
+
+</p>
+            <p class="price"><dl><dd>料金</dd><dt>1,500円</dt></dl></p>
+            <p class="teach_btn line01"><a href="https://www.yoga-pilates-yosei.com/y4c/class.html" target="_blank" class="btn btn-success">詳細はこちら</a></p>
+
+
+            <!--h4>3/2（金）、3/3（土）、3/4（日）、3/9（金）、3/10（土）、3/11（日）<br>「インストラクター養成コース」  </h4>
+
+            <p> 3/2（金）18:30-21:00<br>
+                3/3（土）9:00-18:00（ランチ休憩あり）<br>
+                3/4（日）9:00-18:00（ランチ休憩あり）<br>
+                3/9（金）18:30-21:00<br>
+                3/10（土）9:00-18:00（ランチ休憩あり）<br>
+                3/11（日）9:00-18:00（ランチ休憩あり）<br>
+                計37時間、実践ホームワーク課題：8時間　計45時間
+          </p>
+            <p class="price"><dl><dd>講師</dd><dt>Tari Prinster</dt></dl></p>
+            <p class="price"><dl><dd>料金</dd><dt>148,000円<br>【早割】1月末までのお申込みで138,000円</dt></dl></p>
+            <p class="teach_btn line01"><a href="https://www.yoga-pilates-yosei.com/y4c/zn/contact/application.php" target="_blank" class="btn btn-success">詳細はこちら</a></p>
+
+
+               <h4>3/6（火）18:30～21:30<br>がん経験者のためのヨガクラス</h4>
+    <p class="price"><dl><dd>料金</dd><dt>【一般】￥5,000<br>【YogaWorks TT卒業生/ y4c TT卒業生 】￥4,500</dt></dl></p>
+    <p class="teach_btn line01"><a href="tari.html#01" class="btn btn-success">詳細はこちら</a></p>
+
+
+          <h4>3/7（水）18:30～21:30<br>がん患者の心身の健康をサポートするヨガのアプローチを学ぶ</h4>
+    <p class="price"><dl><dd>料金</dd><dt>【一般】￥5,000<br>【YogaWorks TT卒業生/ y4c TT卒業生 】￥4,500</dt></dl></p>
+    <p class="teach_btn"><a href="tari.html#02" class="btn btn-success">詳細はこちら</a></p--->
+
+
+        </div>
+    </section>
+</div>
+
+
+<div class="container ws_list">
+<section class="row">
+    <h3 id="yogaworks">加藤紅彩（Kosai）</h3>
+    <div class="col-sm-4 teach_pic">
+    <img src="img/img_kosai.jpg" alt="加藤紅彩（Kosai）" />
+    </div>
+    <div class="col-sm-8">
+    <p class="disc">YogaWorksティーチャートレーニング(RYT200) 準備のためのワークショップ
+～ティーチャートレーニングを3倍楽しむ！～</p>
+    <h4><p>2018年2/23（金）13：30～15：30</p>YogaWorksティーチャートレーニング(RYT200) 準備のためのワークショップ</h4>
+    <p class="price"><dl><dd>料金</dd><dt>¥3,000</dt></dl></p>
+    <p class="teach_btn"><a href="yogaworks.html" class="btn btn-success">詳細はこちら</a></p>
+    </div>
+    </section>
+</div>
+
+
+
+
+<div class="container ws_list">
+<section class="row">
+    <h3 id="jennie">Jennie Cohen</h3>
+    <div class="col-sm-4 teach_pic">
+    <img src="img/img_jennie01.jpg" alt="Jennie Cohen" />
+    </div>
+    <div class="col-sm-8">
+    <p class="disc">YogaWorks認定指導者Jennie Cohenによる、ワークショップ＆フロークラスです。</p>
+    <h4>4/2（月）14:00～17:00<br>【ヨガ指導者向け】Jennie Cohenによる「応用解剖学」ワークショップ</h4>
+    <p class="price"><dl><dd>料金</dd><dt>【一般】￥10,000<br>【YogaWorks TT卒業生／トレーニング生】￥10,000<br>10,500円（3/1~通常料金）</dt></dl></p>
+    <p class="teach_btn line01"><a href="jennie.html#01" class="btn btn-success">詳細はこちら</a></p>
+
+    <h4>3/31（土）13:00～15:00<br>大人気YogaWorks講師 Jennie Cohenによるマスタークラス開催！（レベル1-2）</h4>
+    <p class="price"><dl><dd>料金</dd><dt>【一般】￥5,000（TT卒業生、早期割引~2月末まで）<br>5,500円（3/1~通常料金）</dt></dl></p>
+    <p class="teach_btn line01"><a href="jennie.html#02" class="btn btn-success">詳細はこちら</a></p>
+
+
+     <h4>3/31（土）10:00～12:00<br>大人気YogaWorks講師 Jennie Cohenによるマスタークラス開催！（レベル2-3）</h4>
+    <p class="price"><dl><dd>料金</dd><dt>【一般】￥5,000（TT卒業生、早期割引~2月末まで）<br>5,500円（3/1~通常料金）</dt></dl></p>
+    <p class="teach_btn line01"><a href="jennie.html#03" class="btn btn-success">詳細はこちら</a></p>
+    </div>
+
+
+    </section>
+</div>
+
+
+
+
+<div class="container ws_list">
+<section class="row">
+    <h3 id="ishikawa">石川沙樹</h3>
+    <div class="col-sm-4 teach_pic">
+    <img src="img/img_ishikawa.jpg" alt="石川沙樹" />
+    </div>
+    <div class="col-sm-8">
+    <p class="disc">スタンディングピラティスワークショップでは効果的な足裏の筋肉の使い方、立位姿勢、足のケアの方法、効果的な意識づけやキューイングを、解剖学を考慮しながら理解し、伝統的なピラティスエクササイズを立位で行う【スタンディングピラティス】エクササイズを習得していきます。</p>
+     <h4><p>2018年3/23（金）13：00～18：00</p>スタンディングピラティスワークショップ</h4>
+    <p class="price"><dl><dd>料金</dd><dt>¥15,000</dt></dl></p>
+    <p class="teach_btn"><a href="ishikawa.html" class="btn btn-success">詳細はこちら</a></p>
+    </div>
+    </section>
+</div>
+
+
+
 
 <div class="container ws_list">
 <section class="row">
@@ -114,7 +523,7 @@ $(function(){
     <div class="col-sm-8">
     <p class="disc">basiピラティスインストラクターRumikoによる、より活躍できるピラティスインストラクターへ！の継続教育。<br>
 		ピラティス指導にあたり、はじめの1歩から安全で的確なインストラクションができる、必要最低限な知識で、ピラティスの動きに必要な筋肉、関節の動きを学びます。</p>
-    <h4><p>2018年1/25（木）・2018年1/25（木）・1/26（金）14：00～17：00</p>「初めての基礎解剖学」ピラティスインストラクターが知っておくべき解剖学</h4>
+    <h4><p>2018年4/5（木）・4/6（金）14：00～17：00</p>「初めての基礎解剖学」ピラティスインストラクターが知っておくべき解剖学</h4>
     <p class="price"><dl><dd>料金</dd><dt>¥18,000</dt></dl></p>
     <p class="teach_btn"><a href="rumiko.html" class="btn btn-success">詳細はこちら</a></p>
     </div>
@@ -123,13 +532,76 @@ $(function(){
 
 <div class="container ws_list">
 <section class="row">
+    <h3 id="friday">FRIDAY NIGHT YOGA Party!</h3>
+    <div class="col-sm-4 teach_pic">
+    <img src="img/img_friday.jpg" alt="Rumiko" />
+    </div>
+    <div class="col-sm-8">
+    <p class="disc">アジア最大級のヨガイベント『ヨガフェスタ横浜』など国内イベントにも多数出演の、ヨガインストラクターMaikoさんによるクンダリーニヨガをDJ Satoshi Miyaのサウンドが盛り上げます！<br />
+		Friday night Yogaの後はみんなで乾杯！！！</p>
+    <h4>FRIDAY NIGHT YOGA Party!</h4>
+    <p class="price"><dl><dd>日時</dd><dt>4月27日(金) 19:00-21:00 (受付開始：18:30)</dt></dl>
+	<dl><dd>金額</dd><dt>3,000円（エコバック付）<br />Yoga plus 会員&Yoga works コース生　卒業生は割引ありますので、お申し込みはスタジオまたは　info_bms@zen-jp.info　にご連絡ください。</dt></dl></p>
+	<p class="price"><dl><dd>会場</dd><dt>BMS R-Lab2<br />品川区西五反田3-6-20 いちご西五反田ビル9F</dt></dl>
+</p>
+    <p class="teach_btn"><a href="fridaynight.html" class="btn btn-success">詳細はこちら</a></p>
+    </div>
+    </section>
+</div>
+
+
+
+
+<!--div class="container ws_list">
+<section class="row">
+    <h3 id="vivi">Vivi Lestou</h3>
+    <div class="col-sm-4 teach_pic">
+    <img src="img/img_vivi.jpg" alt="Chad Hamrin" />
+    </div>
+    <div class="col-sm-8">
+<h4 class="vivi4">STRONG ALIGNMENT - FEARLESS ACTION <br />
+強いアライメントー恐れのない行動</h4>
+<p class="disc">
+ABHAYA MUDRA！ のワークショップ<br />
+創設者ギリシャから来日する　Vivi Lestou　ヴィヴィ・ルソーが教えます！！			
+			
+ </p>
+		
+		
+<h4>【東京】5/3、5/4、5/5、5/6、5/7STRONG ALIGNMENT - FEARLESS ACTION</h4>	
+<p class="price2">
+<dl><dd>料金</dd>
+<dt>ピラティスワークショップ3時間　12500円（BASI養成コース生・卒業生12000円）<br>
+120分のヨガクラス 　　　　　　　6500円（YW養成コース生・卒業生6000円）<br>
+In Dept Abhaya yoga講座　　　78,000円（Yoga plus会員割引70000円）<br />
+＊集中講座の一部を一般公開するオープンワークショップ　一律6000円<br />
+	</dt></dl>	
+</p>
+<p class="teach_btn line01"><a href="vivi.html#tky" class="btn btn-success">詳細はこちら</a></p>
+<h4>【大阪】5/11、5/12、5/13STRONG ALIGNMENT - FEARLESS ACTION</h4>	
+<p class="price2">
+<dl><dd>料金</dd>
+<dt>
+ピラティスワークショップ3時間　12500円（BASI養成コース生・卒業生12000円）<br>
+ピラティスワークレッスン時間　　6500円（BASI養成コース生・卒業生6500円）<br>
+ワークショップ　　　　　　　　　10000円（YW養成コース生・卒業生9000円） <br>
+120分のヨガクラス 　　　　　　　6500円（YW養成コース生・卒業生6000円）<br>
+ワークショップ　　　　　　　　　10000円（YW養成コース生・卒業生9000円） <br>
+	</dt></dl>	
+</p>
+		<p class="teach_btn"><a href="vivi.html#osaka" class="btn btn-success">詳細はこちら</a></p>
+    </div>
+    </section></div-->
+
+
+<div class="container ws_list">
+<section class="row">
     <h3 id="chad">Chad Hamrin</h3>
     <div class="col-sm-4 teach_pic">
     <img src="img/img_chad.jpg" alt="Chad Hamrin" />
     </div>
     <div class="col-sm-8">
-    <p class="disc">世界で活躍する著名なヨガ講師である リサ・ウォルフォードやマティ・エズラティが師と仰ぐヨガティーチャー、チャドが再来日!!<br>
-    </p>
+    <p class="disc">世界で活躍する著名なヨガ講師であるリサ・ウォルフォードやマティ・エズラティが師と仰ぐヨガ講師、Chad Hamurin（チャド・ハムリン）が再来日!!</p>
     <h4>2018年4/7(土)、8(日)、9(月)、10日(火) 10:00～20:30<br>【大阪】「Chad Hamrin（チャド・ハムリン）ヨガClass＆Workshop」</h4>
     <p class="price"><dl><dd>料金</dd>
       <dt>Workshop　￥7,500(早割2月末まで）　通常／￥8,500   <br>
@@ -143,7 +615,7 @@ $(function(){
     <dt>各店舗1回／￥4,500(早割2月末まで）　通常／￥5,000</dt></dl></p>
     <p class="teach_btn line01"><a href="chad.html#02" class="btn btn-success">詳細はこちら</a></p>
 
-    <h4>2018年4/12(木)〜22日(日) 9:00～21:00<br>【東京】Chad Hamrin（チャド・ハムリン）ヨガWorkshop</h4>
+    <h4>2018年4/13(金)〜22日(日) 9:00～21:00<br>【東京】Chad Hamrin（チャド・ハムリン）ヨガWorkshop</h4>
 <p class="price"><dl><dd>料金</dd>
 <dt>Workshop　￥7,500(早割2月末まで）　通常／￥8,000   <br>
   集中講座　 2日間セット／￥39,000（1日単発￥20,000）<br>
@@ -152,6 +624,27 @@ $(function(){
     </div>
     </section>
 </div>
+
+
+<div class="container ws_list">
+<section class="row">
+    <h3 id="nagaki">永木和載</h3>
+    <div class="col-sm-4 teach_pic">
+    <img src="img/img_nagaki01.jpg" alt="永木和載" />
+    </div>
+    <div class="col-sm-8">
+    <p class="disc">理学療法士である永木先生による<br>
+解剖学初心の方にも医療従事者の再学習にも最適な講座です。</p>
+    <h4>①3/8（木）②3/22（木）③4/26（木）④5/24（木）⑤6/28（木）⑥7/26（木） <br>19：30〜21：30<br>基礎から学ぶ、関節の構造の知識と触る技術を高める全6回シリーズ</h4>
+    <p class="price"><dl><dd>料金</dd><dt>※１回のみの受講も可能です<br>【各１回】￥6,000<br>【全６回】￥30,000</dt></dl></p>
+    <p class="teach_btn"><a href="nagaki.html#01" class="btn btn-success">詳細はこちら</a></p>
+
+    </div>
+    </section>
+</div>
+
+
+
 
 <div class="container ws_list">
 <section class="row">
@@ -169,38 +662,6 @@ $(function(){
     </section>
 </div>
 
-<div class="container ws_list">
-<section class="row">
-    <h3 id="ogino">萩野佳央理</h3>
-    <div class="col-sm-4 teach_pic">
-    <img src="img/img_ogino.jpg" alt="岡崎ともみ" />
-    </div>
-     <div class="col-sm-8">
-    <p class="disc">今年こそ英語嫌いを克服！解剖学＆フィットネス英語基礎マスター3時間講座</p>
-    <h4>2018年1/19(金) 13:00～16:00<br>英語基礎講座　～楽しく学べるレッスン英語～</h4>
-    <p class="price"><dl><dd>料金</dd><dt>¥10,000</dt></dl></p>
-    <p class="teach_btn"><a href="ogino.html" class="btn btn-success">詳細はこちら</a></p>
-	 </div>
-
-    </section>
-</div>
-
-
-<div class="container ws_list">
-<section class="row">
-    <h3 id="kelly">Kelly Milton</h3>
-    <div class="col-sm-4 teach_pic">
-    <img src="img/img_kelly.jpg" alt="Kelly Milton" />
-    </div>
-    <div class="col-sm-8">
-    <p class="disc">basiピラティスファカルティKelly来日特別ワークショップ。<br>
-basiピラティス養成コース在校生・卒業生のための動きの復習会です。</p>
-    <h4><p>2018年1/13（土）15：30〜18：30</p>マットワーク復習〜モジュール1-6〜</h4>
-    <p class="price"><dl><dd>料金</dd><dt>¥12,500</dt></dl></p>
-    <p class="teach_btn"><a href="kelly.html" class="btn btn-success">詳細はこちら</a></p>
-    </div>
-    </section>
-</div>
 
 <div class="container ws_list">
 <section class="row">
@@ -246,24 +707,19 @@ basiピラティス養成コース在校生・卒業生のための動きの復�
     </div>
     <div class="col-sm-8">
     <p class="disc">ヨガ・ボディーワーク系において、第一線で活躍するプロ通訳者による実践的な通訳養成プログラムです。</p>
-    <!--<h4><p>前期：2018年1/7（日）、1/14（日）、1/28（日）、2/4（日）、2/11（日）<br>
-			後期：2018年2/18（日）、2/25（日）、3/11（日）、3/18（日）、3/25（日）</p>「ヨガ／ボディーワーク基礎通訳養成10日間コース」</h4>
-    <p class="price"><dl><dd>料金</dd><dt>＜前期＋後期セット価格＞<br>一般／￥110,000<br>YogaWorks TT200・500卒業生／¥99,000</dt></dl></p>
-    <p class="teach_btn line01"><a href="watase.html#01" class="btn btn-success">詳細はこちら</a></p> -->
-    
         <h4><p>2018年4/16（月）、4/16（火）、4/16（水）、4/16（木）、4/16（金）、4/21（土）10：00〜17：00</p>「～英語で教える～バイリンガルヨガ講師養成講座」</h4>
     <p class="price"><dl><dd>料金</dd><dt>＜前期＋後期セット価格＞<br>一般／￥200,000<br>YogaWorks TT200・500卒業生／¥180,000</dt></dl></p>
     <p class="teach_btn line01"><a href="watase.html#02" class="btn btn-success">詳細はこちら</a></p>
-  
-    
+
+
      <h4><p>2018年6/3（日）、6/10（日）、6/17（日）、6/24（日）、7/1（日）、7/8（日）9：00〜13：00 </p>「～英語で教える～ アドバンス バイリンガルヨガ講師養成講座」</h4>
     <p class="price"><dl><dd>料金</dd><dt>＜前期＋後期セット価格＞<br>一般／￥150,000<br>
       YogaWorks TT200・500卒業生／¥135,000</dt></dl></p>
     <p class="teach_btn"><a href="watase.html#03" class="btn btn-success">詳細はこちら</a></p>
-      
-   
-       
-       
+
+
+
+
     </div>
     </section>
 </div>
@@ -279,16 +735,16 @@ basiピラティス養成コース在校生・卒業生のための動きの復�
     <p class="disc">鍼灸師・あん摩マッサージ指圧師・柔道整復師（接骨師）・インド政府公認ヨガ療法士。東京、千葉を中心に全国でヨガ解剖学のインストラクター養成講座、整体マッサージや解剖学、東洋医学講座を行い柔らかい物腰と笑いの絶えないわかりやすい講座が好評の講座です。</p>
 
 
-    <h4>3/7（水）、3/8（木）9：00〜17：00<br>
+    <!--h4>2018年3/7（水）、3/8（木）9：00〜17：00<br>
       【2日で取得】経絡ヨガインストラクター養成コース</h4>
     <p class="price"><dl><dd>料金</dd><dt>￥54,000</dt></dl></p>
     <p class="teach_btn line01"><a href="takamura.html#01" class="btn btn-success">詳細はこちら</a></p>
 
-    <h4>3/7（水）17：15〜18：15<br>
+    <h4>2018年3/7（水）17：15〜18：15<br>
       人気講師マサ先生の経絡ヨガ 60分レッスン</h4>
     <p class="price"><dl><dd>料金</dd>
     <dt>￥2,700</dt></dl></p>
-    <p class="teach_btn line01"><a href="takamura.html#02" class="btn btn-success">詳細はこちら</a></p>
+    <p class="teach_btn line01"><a href="takamura.html#02" class="btn btn-success">詳細はこちら</a></p-->
 
 
 　　<h4>2018年4/1（日）9：30〜17：30<br>セラピスト、ヨギのための「筋膜リリースセラピスト養成講座」</h4>
@@ -310,22 +766,6 @@ basiピラティス養成コース在校生・卒業生のための動きの復�
   </section>
 </div>
 
-<div class="container ws_list">
-<section class="row">
-    <h3 id="nagaki">永木和載</h3>
-    <div class="col-sm-4 teach_pic">
-    <img src="img/img_nagaki01.jpg" alt="永木和載" />
-    </div>
-    <div class="col-sm-8">
-    <p class="disc">理学療法士である永木先生による<br>
-解剖学初心の方にも医療従事者の再学習にも最適な講座です。</p>
-    <h4>①11/16（木）②11/30（木）③12/14（木）④12/21（木）⑤1/18（木）⑥1/25（木）19：30〜21：30<br>基礎から学ぶ、関節の構造の知識と触る技術を高める全6回シリーズ</h4>
-    <p class="price"><dl><dd>料金</dd><dt>※１回のみの受講も可能です<br>【各１回】￥6,000<br>【全６回】￥30,000</dt></dl></p>
-    <p class="teach_btn"><a href="nagaki.html#01" class="btn btn-success">詳細はこちら</a></p>
-
-    </div>
-    </section>
-</div>
 
 <!--<div class="container ws_list">
 <section class="row">
@@ -347,17 +787,19 @@ basiピラティス養成コース在校生・卒業生のための動きの復�
 
 
 
+
 <!--<div class="container ws_list">
 <section class="row">
-    <h3 id="yogaworks">加藤紅彩（Kosai）</h3>
+    <h3 id="kelly">Kelly Milton</h3>
     <div class="col-sm-4 teach_pic">
-    <img src="img/img_kosai.jpg" alt="加藤紅彩（Kosai）" />
+    <img src="img/img_kelly.jpg" alt="Kelly Milton" />
     </div>
     <div class="col-sm-8">
-    <p class="disc">アメリカ生まれのYogaWorksスタイルのヨガが体験できる講座の紹介です</p>
-    <h4><p>2018年1/6（土）15：00〜17：00</p>YogaWorksティーチャートレーニング準備のためのワークショップ<br>～ヨガワークスティーチャートレーニングを3倍楽しむ！～</h4>
-    <p class="price"><dl><dd>料金</dd><dt>¥5,000 ※YogaWorksオリジナルエコバッグ付き</dt></dl></p>
-    <p class="teach_btn"><a href="yogaworks.html" class="btn btn-success">詳細はこちら</a></p>
+    <p class="disc">basiピラティスファカルティKelly来日特別ワークショップ。<br>
+basiピラティス養成コース在校生・卒業生のための動きの復習会です。</p>
+    <h4><p>2018年1/13（土）15：30〜18：30</p>マットワーク復習〜モジュール1-6〜</h4>
+    <p class="price"><dl><dd>料金</dd><dt>¥12,500</dt></dl></p>
+    <p class="teach_btn"><a href="kelly.html" class="btn btn-success">詳細はこちら</a></p>
     </div>
     </section>
 </div> -->
@@ -519,26 +961,6 @@ basiピラティス養成コース在校生・卒業生のための動きの復�
   </section>
 </div> -->
 
-<!--<div class="container ws_list">
-<section class="row">
-    <h3 id="jennie">Jennie Cohen</h3>
-    <div class="col-sm-4 teach_pic">
-    <img src="img/img_jennie02.jpg" alt="Jennie Cohen" />
-    </div>
-    <div class="col-sm-8">
-    <p class="disc">YogaWorks認定指導者Jennie Cohenによる、ワークショップ＆プライベートレッスンです。</p>
-    <h4>10/28（土）18：30～20：30<br>リストラティブヨガの科学と実践：学んで手放す</h4>
-    <p class="price"><dl><dd>料金</dd><dt>【一般】￥7,000<br>【YogaWorks TT卒業生／トレーニング生】￥6,200</dt></dl></p>
-    <p class="teach_btn line01"><a href="jennie.html#01" class="btn btn-success">詳細はこちら</a></p>
-
-    <h4>10/29（日）13：00～17：00<br>最小限のプロップスでのリストラティブヨガ</h4>
-    <p class="price"><dl><dd>料金</dd><dt>【一般】￥14,000<br>【YogaWorks TT卒業生／トレーニング生】￥12,500</dt></dl></p>
-    <p class="teach_btn line01"><a href="jennie.html#02" class="btn btn-success">詳細はこちら</a></p>
-
-    <!--<h4>10/13（金）＜1回目＞9：45～10：45 ＜2回目＞11：00～12：00<br>Jennie Cohen プライベートレッスン ※通訳付</h4>
-    <p class="price"><dl><dd>料金</dd><dt>【一回】￥13,500</dt></dl></p>
-    <p class="teach_btn"><a href="jennie.html#03" class="btn btn-success">詳細はこちら</a></p> -->
-
 
 <!--<div class="container ws_list">
 <section class="row">
@@ -597,23 +1019,6 @@ basiピラティス養成コース在校生・卒業生のための動きの復�
 
 <!--<div class="container ws_list">
 <section class="row">
-    <h3 id="imaoka">今岡美雪</h3>
-    <div class="col-sm-4 teach_pic">
-    <img src="img/img_imaoka02.jpg" alt="今岡美雪" />
-    </div>
-    <div class="col-sm-8">
-    <p class="disc">　ヤムナフェイスの資格トレーナーから学ぶ"自分で出来るフェイスケア～疲れ目解消と元気肌をゲット！"</p>
-    <h4>12/9（土）14：00〜 16：10<br>～ Yamuna Save Face Save Body～　今岡美雪ワークショップ</h4>
-    <p class="price"><dl><dd>料金</dd><dt>￥7,800（ボール購入別途）</dt></dl></p>
-    <p class="teach_btn"><a href="imaoka.html" class="btn btn-success">詳細はこちら</a></p>
-    </div>
-    </section>
-</div>-->
-
-
-
-<!--<div class="container ws_list">
-<section class="row">
     <h3 id="chuck">Chuck Miller</h3>
     <div class="col-sm-4 teach_pic">
     <img src="img/img_chuck.jpg" alt="Chuck Miller" />
@@ -638,42 +1043,33 @@ basiピラティス養成コース在校生・卒業生のための動きの復�
     </div>
     <div class="col-sm-8">
   <p class="disc">運動指導向け　立体模型で身体構造と機能を学ぶ解剖学　３日間コース</p>
-
-
-
-   <h4>2/13（火） 12：30～18：30<br>乳癌ヒーリングに活かすピラティス指導法　～Breast Cancer: Training to Heal ～</h4>
+   <h4>2018年2/13（火） 12：30～18：30<br>乳癌ヒーリングに活かすピラティス指導法　～Breast Cancer: Training to Heal ～</h4>
     <p class="price"><dl><dd>料金</dd><dt>￥38,000 ※マニュアル付き</dt></dl></p>
    <p class="teach_btn line01"><a href="joy.html#01" class="btn btn-success">詳細はこちら</a></p>
 
-     <h4>2/13（火） 10：00～11：30<br>乳癌ヒーリングピラティスレッスン</h4>
+     <h4>2018年2/13（火） 10：00～11：30<br>乳癌ヒーリングピラティスレッスン</h4>
     <p class="price"><dl><dd>料金</dd><dt>￥3,500 </dt></dl></p>
    <p class="teach_btn line01"><a href="joy.html#02" class="btn btn-success">詳細はこちら</a></p>
 
-
-     <h4>2/3（土） 10：00～13：00<br>ThinkFit：インテリジェントマットプログラミング</h4>
+     <h4>2018年2/3（土） 10：00～13：00<br>ThinkFit：インテリジェントマットプログラミング</h4>
     <p class="price"><dl><dd>料金</dd><dt>￥18,000 </dt></dl></p>
    <p class="teach_btn line01"><a href="joy.html#03" class="btn btn-success">詳細はこちら</a></p>
 
-  <h4>2/3（土） 14：00～17：00<br>ThinkFit：インテリジェントリフォーマープログラミング  </h4>
+  <h4>2018年2/3（土） 14：00～17：00<br>ThinkFit：インテリジェントリフォーマープログラミング  </h4>
     <p class="price"><dl><dd>料金</dd><dt>￥18,000 </dt></dl></p>
    <p class="teach_btn line01"><a href="joy.html#04" class="btn btn-success">詳細はこちら</a></p>
 
-
-
-   <h4>2/7（月）、2/8（火）、2/9（水） 12：00～18：00<br>3D解剖学講座　Balanced Body AI3D　3日間コース</h4>
+   <h4>2018年2/7（月）、2/8（火）、2/9（水） 12：00～18：00<br>3D解剖学講座　Balanced Body AI3D　3日間コース</h4>
     <p class="price"><dl><dd>料金</dd><dt>￥90,000 ※マニュアル付き</dt></dl></p>
    <p class="teach_btn line01"><a href="joy.html#05" class="btn btn-success">詳細はこちら</a></p>
 
-
-    <h4>2/3（土）、2/4（日） 10：00～19：00<br>ピラティス指導資格　MAT 1 基礎初級</h4>
+    <h4>2018年2/3（土）、2/4（日） 10：00～19：00<br>ピラティス指導資格　MAT 1 基礎初級</h4>
     <p class="price"><dl><dd>料金</dd><dt>￥85,000 <br/>テキストと修了書付き</dt></dl></p>
     <p class="teach_btn line01"><a href="joy.html#06" class="btn btn-success">詳細はこちら</a></p>
 
-
-    <h4>2/5（月） 10：00～17：00<br>脊柱にフォーカスしたリハビリテーションピラティス講座</h4>
+    <h4>2018年2/5（月） 10：00～17：00<br>脊柱にフォーカスしたリハビリテーションピラティス講座</h4>
     <p class="price"><dl><dd>料金</dd><dt>￥36,000 <br/>テキストと修了書付き</dt></dl></p>
     <p class="teach_btn"><a href="joy.html#07" class="btn btn-success">詳細はこちら</a></p>
-
 
     </div>
   </section>
@@ -840,10 +1236,10 @@ basiピラティス養成コース在校生・卒業生のための動きの復�
     <p class="price"><dl><dd>料金</dd><dt>※全３回の受講で一般社団法人内臓マッサージ協会の女性のセルフケア修了証を発行<br>※１回のみの受講も可能です<br>【各１回】￥8,000（アロマオイル付き）</dt></dl></p>
     <p class="teach_btn"><a href="yuki.html#01" class="btn btn-success">詳細はこちら</a></p>-->
 
-    <h4>1/27（土）　メディカルアロマ～チネイザン五臓ケア講座<br>
-		2/24（土）　子宮美人講座〜冷え取り対策<br>
-		3/17（土）　美腸美脚ダイエット講座<br>
-		4/21（土）　内臓美人セルフチネイザン講座<br>
+    <h4>2018年1/27（土）　メディカルアロマ～チネイザン五臓ケア講座<br>
+		2018年2/24（土）　子宮美人講座〜冷え取り対策<br>
+		2018年3/17（土）　美腸美脚ダイエット講座<br>
+		2018年4/21（土）　内臓美人セルフチネイザン講座<br>
 <br>女性の為のチネイザンセルフケアシリーズ</h4>
     <p class="price"><dl><dd>料金</dd><dt>1講座　8000円/名<br>
 										4講座受講割引32000円⇒30000円<br>
@@ -890,23 +1286,22 @@ basiピラティス養成コース在校生・卒業生のための動きの復�
 
 
 
-<!--<div class="container ws_list">
+<div class="container ws_list">
 <section class="row">
     <h3 id="okamoto">岡本るみ子</h3>
     <div class="col-sm-4 teach_pic">
     <img src="img/img_okamoto01.jpg" alt="岡本るみ子" />
     </div>
     <div class="col-sm-8">
-    <p class="disc">エビデンスのあるプログラムで、最幸の人生を手に入れたい方へ。
-    <h4><p>
-7/6（木）14：00～15：30・7/22（土）10：30～12：00</p>賢く健康美を叶えるフェイシャルサーキット</h4>
-    <p class="price"><dl><dd>料金</dd><dt>￥3,500</dt></dl></p>
-    <p class="teach_btn"><a href="okamoto.html#02" class="btn btn-success">詳細はこちら</a></p>
+    <p class="disc">エビデンスのあるプログラムで、最幸の人生を手に入れたい方へ。<br>世界中で愛される伝統的な技術を結集した顔の総合的なセルフケアメソッド。英国予防医学機関（ICHM）・健康運動指導士協会（REPs）公認フェイスエクササイズ。この技術の指導者を目指しませんか？</p>
+    <h4>フェイスエクササイズ指導者養成講座【2018年・集中コース】<br>3月27日 12:00～19:00、28日・29日・30日 10:00～17:00</h4>
+    <p class="price"><dl><dd>料金</dd><dt>￥151,200</dt></dl></p>
+    <p class="teach_btn"><a href="okamoto.html" class="btn btn-success">詳細はこちら</a></p>
     </p>
     </div>
 
   </section>
-</div>-->
+</div>
 
 <!-- <div class="container ws_list">
 <section class="row">
@@ -983,10 +1378,15 @@ basiピラティス養成コース在校生・卒業生のための動きの復�
     <img src="img/img_hatano01.jpg" alt="波田野征美" />
     </div>
     <div class="col-sm-8">
-    <p class="disc">あなたの臨床が変わります！【トリガーポイントー基礎編全4回ー】<br>
+    <p class="disc line01">あなたの臨床が変わります！<br>
 東洋医学を組み合わせたトリガーポイント療法で痛み・しびれだけでなく多くの不定愁訴にも対応する。勉強量、思考の深さ、発言のカリスマ性から開催するセミナーはほぼ満席の理学療法士、経路・体軸ヨガストレッチインストラクター波田野征美先生の講座です。</p>
-
-    <h4>①12/23（土）②1/20（土）③2月(日程場所未定) ④3/10（土）10：00～16：00<br>あなたの臨床が変わります！【トリガーポイントー基礎編全４回ー】</h4>
+    <p class="disc" style="padding-top:20px; font-weight:bold;">シリーズ第5回日程決定！！！</p>
+    <h4>2018年 4月28日　BMS R-Lab１ ①頭頚部痛<br>
+        2018年 5月26日　BMS R-Lab１ ②肩・上肢<br>
+        2018年 6月23日　BMS R-Lab１ ③腰下痛<br>
+        2018年 7月28日　BMS R-Lab１ ④下肢・膝痛<br>
+        隔日土曜日　時間：10:00~16:00<br>
+        《　どのシリーズの日程も選択可能です。　》</h4>
     <p class="price"><dl><dd>料金</dd><dt>※１回のみの受講も可能です<br>【各１回】￥13,800<br>【全４回】一括申し込み￥48,000</dt></dl></p>
     <p class="teach_btn"><a href="hatano.html#01" class="btn btn-success">詳細はこちら</a></p>
 
@@ -1045,7 +1445,22 @@ basiピラティス養成コース在校生・卒業生のための動きの復�
 <!--<div class="pageTop">PAGE TOP</div>-->
 
 <footer class="ftr">
-<section class="">
+<section>
+<!--fmenu-->
+<div class="fmenu">
+<ul>
+<li><a href="index.html#kaisai">【 受付中 】開催予定講座一覧</a></li>
+</ul>
+<ul>
+<li><a href="archive.html">開催中・開催終了講座一覧</a></li>
+</ul>
+<ul>
+<li><a href="access.html">アクセス</a></li>
+<li class="last"><a href="policy.html">キャンセルポリシー</a></li>
+</ul>
+</div>
+<!--/fmenu-->
+	
 <div class="icon_area text-center">
 <div id="tel"><h2>BMS R Lab お問合せ&nbsp;&nbsp;Tel.03-6409-6504&nbsp;&nbsp;<a href="mailto:info_bms@zen-jp.info">info_bms@zen-jp.info</a></h2><p></p></div>
 <a href="https://ja-jp.facebook.com/BMSRLab/" target="_blank"><img src="img/img_fb.png" alt="BMS R LabのFACEBOOK" /></a><a href="https://www.youtube.com/channel/UCN2V58JgT5NmTpJ5wROgVcA" target="_blank"><img src="img/img_yt.png" alt="BMS R LabのYOUTUBE" /></a></div>
@@ -1112,6 +1527,5 @@ $(function() {
     });
 });
 </script>
-
 </body>
 </html>
