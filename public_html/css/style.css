@@ -3,8 +3,7 @@
 body{letter-spacing: 0.1em;}
 
 img {max-width: 100%;}
-
-
+.header{margin: 0 auto;text-align: center;}
 header {background: #222;color: #fff;}
 header h1 {font-size: 16px; padding: 5px;margin: 0;}
 
